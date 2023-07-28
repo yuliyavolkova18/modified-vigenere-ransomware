@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
+import os
+from vigenere_ransomware import process_files
 
 """
 Modified vigenere ransomware
 """
-
-import os
-from vigenere_ransomware import process_files
 
 def get_user_choice():
     while True:
