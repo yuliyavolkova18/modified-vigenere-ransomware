@@ -23,5 +23,5 @@ The classical Vigenère cipher operates within the Vigenère square, a 26x26 mat
 
 **Future fixes**
 
- 1. Encryption/decryption of longer .docx and .pdf files and files containing images partially breaks due to mistranslations occurring during decoding.
- 2.  Tabbed texts such as in .py files accidentally reveal key. 
+ 1. Support exceptions for .docx files containing images.
+ 2. Add separate support for .py texts to account for nested tabbed spaces in encryption/decryption. 
